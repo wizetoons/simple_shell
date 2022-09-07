@@ -5,7 +5,7 @@
  * @ac: argument count
  * @av: argument vectors
  * @env: environmental variables
- * 
+ *
  * Return: 0 on success
  */
 int main(int ac, char **av, char **env)
@@ -14,6 +14,5 @@ int main(int ac, char **av, char **env)
 	(void)av;
 
 	prompt(env);
-
 	return (0);
 }
